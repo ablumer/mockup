@@ -704,6 +704,7 @@ define([
           [self.options.templateOptions]);
       self.trigger('show');
       self.backdrop.show();
+      self.$modal.show();
       self.$wrapper.show();
       self.$loading.hide();
       self.$wrapper.parent().css('overflow', 'hidden');
